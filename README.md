@@ -1,5 +1,6 @@
-# ALX - SOFTWARE ENGINEERING PROGRAM - ADDISS ABABA INTRANET
+# ALX - SOFTWARE ENGINEERING PROGRAM - Ethiopia Intranet
 ## PROJECT = Simple Shell
-## Authors:  Henock Assefa ( @henicodes)
+### Authors:  
+	     Henock Assefa ( @henicodes)
              Ismail Mohamed (@macaanto14)
-	
+# 	
