@@ -1,1 +1,2 @@
-shell exercise repo
+# Simple  Shell --- ISMAIL MOHAMED
+## GITHUB COLLABRATION
