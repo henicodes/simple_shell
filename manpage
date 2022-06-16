@@ -1,1 +1,28 @@
-man page test
+simple Shell ALX PROJECT
+Ismail Ismail, HENOK ASSEFA 
+simple UNIX command interpreter
+command language interpreter that executes commands read from the standard input or from a file.
+./hsh — shell, the standard command language interpreter
+The sh utility is a command language interpreter that shall
+       execute commands read from a command line string, the standard
+       input, or a specified file.
+After a command has been split into words, if it results in a simple command and an optional list of arguments, the following actions are taken.
+
+If the command name contains no slashes, the shell attempts to locate it. If there exists a shell function by that name, that function is invoked. If the name does not match a function, the shell searches for it in the list of shell builtins. If a match is found, that builtin is invoked.
+
+If the name is neither a shell function nor a builtin, and contains no slashes, searches each element of the for a directory containing an executable file by that name. uses a hash table to remember the full pathnames of executable files. A full search of the directories in is performed only if the command is not found in the hash table. If the search is unsuccessful, the shell searches for a defined shell function named "command not found". If that function exists, it is invoked with the original command and the original command's arguments as its arguments, and the function's exit status becomes the exit status of the shell. If that function is not defined, the shell prints an error message and returns an exit status of 127.
+
+If the search is successful, or if the command name contains one or more slashes, the shell executes the named program in a separate execution environment. Argument 0 is set to the name given, and the remaining arguments to the command are set to the arguments given, if any.
+BUILTINS
+builtin commands 
+
+env
+Print the current enviroment
+setenv
+Creates a new environment variab;e or modifies an existing one.
+unsetenv
+Removes an environmental variable
+exit
+Exit the shell
+cd
+Changes the current directory of the process to DIRECTORY.
